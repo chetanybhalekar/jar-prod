@@ -1,16 +1,56 @@
 {
-  "users": [
+  "customers": [
     {
-      "id": 1,
-      "name": "john",
-      "email": "john@gmail.com",
-      "password": "123"
+      "fname": "john",
+      "address": "fake addess",
+      "mobile": "9898989898",
+      "id": 1
     },
     {
-      "name": "ross",
-      "email": "ross@gmail.com",
-      "password": "123",
+      "fname": "kate",
+      "address": "new address",
+      "mobile": "4545454545",
       "id": 2
+    },
+    {
+      "fname": "ross",
+      "address": "new street",
+      "mobile": "122123123",
+      "id": 3
+    },
+    {
+      "fname": "johnasdytfy",
+      "address": "aqgwRHH",
+      "mobile": "46566345645",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "jars": "2",
+      "date": "2023-09-20",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "jars": "10",
+      "date": "2023-09-20",
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "jars": "34",
+      "date": "2023-03-04",
+      "userId": 1,
+      "id": 4
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "passwoed": 123
     }
   ]
 }
